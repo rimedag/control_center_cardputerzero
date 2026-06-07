@@ -4,6 +4,11 @@ Privacy-safe local dashboard for Cardputer Zero.
 
 This public repository contains install instructions and binary package downloads. The development source lives in the private/local NoirSonance Gitea repository.
 
+## Screenshots
+
+![Control Center dashboard](assets/screenshots/dashboard.png)
+![Control Center privacy](assets/screenshots/privacy.png)
+
 ## Install
 
 Use the install helper:
