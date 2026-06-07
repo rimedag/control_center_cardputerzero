@@ -2,7 +2,14 @@
 
 Privacy-safe local dashboard for Cardputer Zero.
 
-This public repository contains install instructions and binary package downloads. The development source lives in the private/local NoirSonance Gitea repository.
+Control Center is a compact local dashboard for checking device status from the Cardputer Zero screen or a normal Linux desktop. It focuses on useful system information, simple actions, and privacy-conscious defaults.
+
+Features:
+
+- Device, uptime, load, memory, and disk overview.
+- Small-screen dashboard for Cardputer Zero.
+- Desktop mode for Raspberry Pi HDMI and regular Linux sessions.
+- Privacy page describing what the packaged build does and does not include.
 
 ## Screenshots
 
@@ -52,6 +59,4 @@ Public downloads are architecture-specific binary builds:
 - `amd64` for regular Linux desktops and laptops.
 - `arm64` for Cardputer Zero and 64-bit Raspberry Pi OS.
 
-The public `.deb` files do not contain the app's readable Python source files.
-
-This build does not bundle personal endpoints, IP addresses, private service paths, credentials, or infrastructure-specific commands.
+The packaged build uses local-only status checks and does not require cloud accounts, telemetry, or bundled credentials.
