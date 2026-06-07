@@ -1,0 +1,18 @@
+Origin: NoirSonance
+Label: Control Center
+Suite: stable
+Codename: stable
+Date: Sun, 07 Jun 2026 12:10:09 GMT
+Architectures: amd64 arm64
+Components: main
+Description: Control Center public APT repository
+MD5Sum:
+ c431cd6ca8b678f353073f535573583d              622 main/binary-amd64/Packages
+ 065632b12aceedc0cb0213133b600a2f              420 main/binary-amd64/Packages.gz
+ cc9ea606cd0b38ef3747c4967b4cd0fe              622 main/binary-arm64/Packages
+ aeee9dd9134c091958c7359f0f9e775d              420 main/binary-arm64/Packages.gz
+SHA256:
+ 8a65bd25418c714875d75876faec307df563ab4beb131b32275d76ea3fe8c161              622 main/binary-amd64/Packages
+ 2baf99501254b85afd6bca93dcc86bcf2811a43c858c7fcd7ad74e350690ce45              420 main/binary-amd64/Packages.gz
+ 88f266e65dabca3c0fab77776924e963c94d3b1423b77acf708c24a4f2cb81ca              622 main/binary-arm64/Packages
+ 7852d75103d880b8b10ceb8f0766805d6d6722d44adb9a8bb6b98ee29744734e              420 main/binary-arm64/Packages.gz

@@ -1,0 +1,13 @@
+Package: noirsonance-control-center
+Version: 0.1.0-noirsonance1
+Architecture: arm64
+Maintainer: NoirSonance <noreply@noirsonance.local>
+Section: utils
+Priority: optional
+Depends: libc6 (>= 2.36), zlib1g, fonts-dejavu-core, libx11-6, libxext6, libxft2, libfontconfig1
+Description: Privacy-safe local dashboard for Cardputer Zero
+Filename: pool/main/n/noirsonance-control-center/noirsonance-control-center_0.1.0-noirsonance1_arm64.deb
+Size: 30788404
+MD5sum: 5658570bad43e26353ba2d2c9fc31cc1
+SHA1: 39431047ad274ccedcd9fa99448d046c080e5f8d
+SHA256: 4615081f70c69d3b2569079c0d4ce4a5479520e10a42dc8765886af04dfaa75f
