@@ -28,8 +28,8 @@ Or download the package for your machine:
 
 ```bash
 ARCH="$(dpkg --print-architecture)"
-curl -LO "https://raw.githubusercontent.com/rimedag/control_center_cardputerzero/main/pool/main/n/noirsonance-control-center/noirsonance-control-center_0.1.0-noirsonance1_${ARCH}.deb"
-sudo apt install "./noirsonance-control-center_0.1.0-noirsonance1_${ARCH}.deb"
+curl -LO "https://raw.githubusercontent.com/rimedag/control_center_cardputerzero/main/pool/main/n/noirsonance-control-center/noirsonance-control-center_0.1.0-noirsonance2_${ARCH}.deb"
+sudo apt install "./noirsonance-control-center_0.1.0-noirsonance2_${ARCH}.deb"
 ```
 
 ## Launch

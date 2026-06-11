@@ -11,7 +11,7 @@ case "$arch" in
         ;;
 esac
 
-asset="noirsonance-control-center_0.1.0-noirsonance1_${arch}.deb"
+asset="noirsonance-control-center_0.1.0-noirsonance2_${arch}.deb"
 repo="${NOIRSONANCE_CONTROL_CENTER_REPO:-rimedag/control_center_cardputerzero}"
 base_url="${NOIRSONANCE_CONTROL_CENTER_BASE_URL:-https://raw.githubusercontent.com/${repo}/main/pool/main/n/noirsonance-control-center}"
 url="${base_url}/${asset}"
@@ -26,6 +26,9 @@ echo "Downloading ${asset}..."
 curl -fL "$url" -o "${tmp_dir}/${asset}"
 
 echo "Installing Control Center..."
-sudo apt install "${tmp_dir}/${asset}"
+(
+    cd "$tmp_dir"
+    sudo apt install "./${asset}"
+)
 
 echo "Done. Launch with: noirsonance-control-center-desktop, noirsonance-control-center-cardputerzero, or noirsonance-control-center"
