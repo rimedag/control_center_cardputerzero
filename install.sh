@@ -28,7 +28,7 @@ curl -fL "$url" -o "${tmp_dir}/${asset}"
 echo "Installing Control Center..."
 (
     cd "$tmp_dir"
-    sudo apt install "./${asset}"
+    sudo apt install -y "./${asset}"
 )
 
 echo "Done. Launch with: noirsonance-control-center-desktop, noirsonance-control-center-cardputerzero, or noirsonance-control-center"
